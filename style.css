@@ -1,0 +1,86 @@
+/* External CSS for Book Haven Registration Form */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d5a1a1;
+    color: #333;
+}
+
+form {
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #ccc9c9;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+fieldset {
+    border: none;
+}
+
+h1 {
+    color: #333;
+}
+
+h1:first-of-type {
+    text-align: center;
+}
+
+h1:nth-of-type(2) {
+    text-align: left;
+}
+
+table {
+    width: 100%;
+    border-spacing: 10px;
+}
+
+td {
+    padding: 5px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+.button-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #5cb85c;
+    color: white;
+    cursor: pointer;
+    margin: 5px;
+}
+
+input[type="reset"] {
+    background-color: #d9534f;
+}
+
+input[type="submit"]:hover {
+    background-color: #4cae4c;
+}
+
+input[type="reset"]:hover {
+    background-color: #c9302c;
+}
